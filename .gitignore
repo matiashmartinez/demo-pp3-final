@@ -1,3 +1,39 @@
 lib/
 .jar
 /dist/
+# Ignorar archivos compilados
+/build/
+dist/
+nbbuild/
+nbdist/
+nbproject/private/
+**/build/
+**/dist/
+
+# Ignorar archivos de configuración de NetBeans
+nbproject/private/
+**/nbproject/private/
+
+# Ignorar bibliotecas (libs)
+libs/
+**/libs/
+*.jar
+*.war
+*.ear
+*.class
+
+# Archivos generados por NetBeans
+*.bak
+*.orig
+*.rej
+*.log
+*.lock
+*.tmp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de configuración del IDE
+.netbeans/
